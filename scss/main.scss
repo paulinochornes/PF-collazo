@@ -1,0 +1,150 @@
+.navbar-brand img {
+    width: 18vh;
+    padding-top: 1.5vh;
+}
+
+$color-primario: #0d0274;
+$color-secundario: white;
+
+nav {
+    background-color: $color-primario;
+
+    .container-fluid {
+        background-color: $color-primario;
+    }
+
+    &.headernavbar {
+        padding: 0vh;
+    }
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+
+    &active {
+        color: white
+    }
+
+    &:hover {
+        color: #405bd4;
+        // background-color: rgb(0, 174, 255);
+
+    }
+}
+
+.buscador {
+    border-radius: 25px;
+}
+
+.subtitulo {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: large;
+    display: flex;
+    padding-left: 8rem;
+}
+
+.encabezado {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ruta {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+    color: #0A3D91;
+}
+
+.parrafo {
+    text-align: justify;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    color: #0A3D91;
+    margin-bottom: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.titulos {
+    color: #003366;
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+
+.producto img {
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+h3,
+h4 {
+    color: #003366;
+    text-align: center;
+}
+
+#destacados {
+    text-align: center;
+    text-size-adjust: 2rem;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.navbar .navbar-expand-lg .bg-body-tertiary .navbar-nav {}
+
+footer {
+    background-color: #0d0274;
+    padding-top: 8vh;
+    margin: 0%;
+    height: 100%;
+
+    & .logo-footer {
+        width: 200px;
+        padding-left: 6vh;
+        justify-content: center;
+    }
+& .span-footer{
+    margin-top: 2vh;
+    padding: 3vh;
+    color: #677481;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+}
+
+
+
+.ul-footer,
+.map-footer {
+    color: $color-secundario;
+    display: inline-block;
+    list-style: none;
+    padding: 0%;
+    align-items: center;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: $color-secundario;
+
+}
+
+.rrss-ul-ico {
+    display: flex;
+    font-size: 0px;
+    padding: 0%;
+    list-style: none;
+}
+
+.rrss-ico  {
+    width: 5vh;
+    padding: 0.5vh;
+}
