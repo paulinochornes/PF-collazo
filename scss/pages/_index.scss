@@ -1,0 +1,75 @@
+
+
+
+
+.subtitulo {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: large;
+    display: flex;
+    padding-left: 8rem;
+}
+
+.encabezado {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ruta {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+    color: #0A3D91;
+}
+
+.parrafo {
+    text-align: justify;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    color: #0A3D91;
+    margin-bottom: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.titulos {
+    color: #003366;
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+
+.producto img {
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+h3,
+h4 {
+    color: #003366;
+    text-align: center;
+}
+p{
+    width: 250px;
+    height: 250px;
+    white-space: normal;
+    overflow: hidden;
+}
+.card{
+    margin-top: 15px;
+}
+#destacados {
+    text-align: center;
+    text-size-adjust: 2rem;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+main{
+    margin-bottom: 1%;
+}
+.navbar .navbar-expand-lg .bg-body-tertiary .navbar-nav {}
